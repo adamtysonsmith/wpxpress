@@ -1,0 +1,21 @@
+<!-- Begin Choose Template -->
+<h2>Choose a WordPress Template</h2>
+<br>
+<ul class="nav nav-pills nav-justified">
+  <li role="presentation" class="active"><a href="#">All Categories</a></li>
+  <li role="presentation"><a href="#">Business</a></li>
+  <li role="presentation"><a href="#">Enterprise</a></li>
+  <li role="presentation"><a href="#">Magazine</a></li>
+  <li role="presentation"><a href="#">Photography</a></li>
+  <li role="presentation"><a href="#">Real Estate</a></li>
+</ul>
+<br>
+<div>
+  <div class="row">
+    <div class="col-xs-12 col-md-4" ng-repeat="theme in themes">
+      <a href="#" class="thumbnail">
+      <img ng-src="{{ 'http://my.studiopress.com/wp-content/uploads/' + theme.thumb_img + '.jpg' }}">
+      </a>
+    </div>
+  </div>
+</div>

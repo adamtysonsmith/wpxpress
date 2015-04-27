@@ -1,0 +1,16 @@
+{
+  "name": "wpxpress",
+  "version": "1.0.0",
+  "description": "WPXpress Application for Client Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Smith",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.2.4",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.23"
+  }
+}
